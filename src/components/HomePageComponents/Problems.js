@@ -10,9 +10,9 @@ export default class Problems extends Component {
 				<Section>
 					<Grid>
 						<div className="item item-1">
-							<h1 className="diabetes">
+							<h3 className="diabetes">
 								Für <br /> Diabetiker
-							</h1>
+							</h3>
 							<div className="rm">
 								<Link to="/diabetiker/" style={{ textDecoration: 'none' }}>
 									<SectionButton style={{ margin: '1rem auto' }}>Mehr Infos</SectionButton>{' '}
@@ -20,10 +20,10 @@ export default class Problems extends Component {
 							</div>
 						</div>
 						<div className="item item-2">
-							<h1>
+							<h3>
 								Warum Füße <br />
 								wichtig sind
-							</h1>
+							</h3>
 							<div className="rm">
 								<Link to="/prob2/" style={{ textDecoration: 'none' }}>
 									<SectionButton style={{ margin: '1rem auto' }}>Mehr Infos</SectionButton>{' '}
@@ -31,9 +31,9 @@ export default class Problems extends Component {
 							</div>
 						</div>
 						<div className="item item-3">
-							<h1>
+							<h3>
 								Was ist <br /> Podologie?
-							</h1>
+							</h3>
 							<div className="rm">
 								<Link to="/prob3/" style={{ textDecoration: 'none' }}>
 									<SectionButton style={{ margin: '1rem auto' }}>Mehr Infos</SectionButton>{' '}
@@ -52,7 +52,7 @@ const GridWrapper = styled.div`
 		color: ${styles.colors.mainWhite};
 	}
 	background: ${styles.colors.mainGrey};
-	h1 {
+	h3 {
 		font-size: 2rem;
 		font-weight: lighter;
 	}
