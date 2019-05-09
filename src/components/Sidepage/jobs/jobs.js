@@ -123,7 +123,10 @@ const JobWrapper = styled.div`
 		width: 75%;
 		margin: 3rem auto;
 		@media (max-width: 480px) {
-			width: 95%;
+			width: 97%;
+			.title {
+				font-size: 1rem;
+			}
 		}
 	}
 	span {

@@ -6,7 +6,7 @@ export default function Mail() {
 	return (
 		<MailWrapper>
 			<a href="mailto: info@fusskundig.de" className="mail" target="_blank" rel="noopener noreferrer">
-				Schreibe uns eine E-Mail
+				Schreibe uns eine Email
 			</a>
 		</MailWrapper>
 	);

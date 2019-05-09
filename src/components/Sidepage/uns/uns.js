@@ -41,7 +41,7 @@ export default class Uns extends Component {
 					</p>
 					<a href="tel: +49211428881" style={{ textDecoration: 'none' }}>
 						<SectionButton style={{ margin: '1rem auto' }}>
-							Termin vereinbaren: 0211 / 428881
+							Termin vereinbaren: 0211/428881
 						</SectionButton>{' '}
 					</a>
 					<p className="leistungen">Oder lesen Sie mehr über unser Angebot hier:</p>
