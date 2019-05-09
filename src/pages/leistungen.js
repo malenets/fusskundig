@@ -5,7 +5,6 @@ import SEO from '../components/seo';
 import { PageHeader, Banner } from '../utils';
 import LeistungenImg from '../images/bcg/water-feet.jpeg';
 import Leistungen from '../components/Sidepage/leistungen/Leistungen';
-import Cookies from '../components/cookie/Cookies';
 
 const LeistungenPage = () => (
 	<Layout>
@@ -14,7 +13,6 @@ const LeistungenPage = () => (
 			<Banner title="LEISTUNGEN" subtitle="Für Füße, auf die Sie stolz sein können" />
 		</PageHeader>
 		<Leistungen />
-		<Cookies />
 	</Layout>
 );
 

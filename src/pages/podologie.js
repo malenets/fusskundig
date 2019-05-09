@@ -5,7 +5,6 @@ import SEO from '../components/seo';
 import Prob3 from '../components/Sidepage/problems/Prob3';
 import { PageHeader, Banner } from '../utils';
 import aboutImg from '../images/morepic/BannerPic/Banner.podologie.jpg';
-import Cookies from '../components/cookie/Cookies';
 
 const Podologie = () => (
 	<Layout>
@@ -14,7 +13,6 @@ const Podologie = () => (
 			<Banner title="Podologie" subtitle="Was genau bedeutet es?" />
 		</PageHeader>
 		<Prob3 />
-		<Cookies />
 	</Layout>
 );
 

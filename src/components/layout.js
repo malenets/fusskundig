@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { createGlobalStyle } from 'styled-components';
 import Navbar from '../components/globals/navbar';
 import Footer from './globals/footer/Footer';
-
+import Cookies from '../components/cookie/Cookies';
 //import './layout.css';
 //import './bootstrap.min.css';
 
@@ -13,6 +13,7 @@ const Layout = ({ children }) => {
 			<GlobalStyle />
 			<Navbar />
 			{children}
+			<Cookies />
 			<Footer />
 		</React.Fragment>
 	);

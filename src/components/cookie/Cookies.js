@@ -10,9 +10,6 @@ const Cookie = () => {
 			style={{ background: '#505559', fontSize: '12px' }}
 			buttonStyle={{ color: '#505559', fontWeight: 'bold', background: '#fff' }}
 			expires={150}
-			onAccept={() => {
-				alert('Thanks');
-			}}
 		>
 			Fußkundig verwendet Cookies, um Ihnen den bestmöglichen Service zu gewährleisten. Wenn Sie auf der Seite
 			weitersurfen stimmen Sie der Cookie-Nutzung zu.

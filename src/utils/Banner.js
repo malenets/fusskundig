@@ -21,6 +21,9 @@ const BannerWrapper = styled.div`
 		font-size: 3rem;
 		text-transform: capitalize;
 		${styles.letterSpacing({ spacing: '0.5rem' })};
+		@media (max-width: 400px) {
+			font-size: 2.5rem;
+		}
 	}
 	.title2 {
 		color: ${styles.colors.mainWhite};

@@ -23,24 +23,28 @@ export default class NavbarAction extends Component {
 }
 
 const TermineButton = styled.button`
+	font-size: 1.3rem;
+	cursor: pointer;
+	text-decoration: none;
+	color: ${styles.colors.mainGrey2};
+	font-weight: 700;
+	font-size: 0.9rem;
+	${styles.transFunction(undefined, '0.5s')};
+	background: white;
+	padding: 0.5rem 1rem;
+	letter-spacing: 0.15rem;
+	margin: 0 auto;
+	border: solid #898989;
+	text-align: center;
 	.phone {
-		font-size: 1.3rem;
-		cursor: pointer;
 		text-decoration: none;
-		color: ${styles.colors.mainGrey2};
-		font-weight: 700;
-		font-size: 0.9rem;
-		${styles.transFunction(undefined, '0.5s')};
-		background: white;
-		padding: 0.2rem 1rem;
-		letter-spacing: 0.15rem;
-		margin: 0 auto;
-		border: solid #898989;
-		text-align: center;
+		color: ${styles.colors.mainGrey};
 	}
-	.phone:hover {
+	&:hover {
 		background: ${styles.colors.mainGrey2};
-		color: ${styles.colors.mainBlack};
+		.phone {
+			color: ${styles.colors.mainBlack};
+		}
 	}
 	display: none;
 	@media (max-width: 767px) {
