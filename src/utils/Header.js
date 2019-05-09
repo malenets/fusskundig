@@ -18,7 +18,7 @@ const IndexHeader = styled.header`
 	justify-content: center;
 	align-items: center;
 	@media (max-width: 300px) {
-		width: 100%;
+		width: 300px;
 	}
 `;
 

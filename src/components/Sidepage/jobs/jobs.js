@@ -141,6 +141,9 @@ const JobWrapper = styled.div`
 		@media (max-width: 900px) {
 			width: 80%;
 		}
+		@media (max-width: 300px) {
+			width: 95%;
+		}
 	}
 	.margin {
 		margin-bottom: 1.5rem;
