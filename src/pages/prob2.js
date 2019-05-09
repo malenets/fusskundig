@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 import SEO from '../components/SEO';
 import Prob2 from '../components/Sidepage/problems/Prob2';
 import { PageHeader, Banner } from '../utils';
