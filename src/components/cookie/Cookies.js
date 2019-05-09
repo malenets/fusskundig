@@ -8,13 +8,10 @@ const Cookie = () => {
 			buttonText="Ich stimme zu"
 			cookieName="Fußkundig"
 			style={{ background: '#505559', fontSize: '12px' }}
-			buttonStyle={{ color: '#505559' }}
+			buttonStyle={{ color: '#505559', fontWeight: 'bold' }}
 			expires={150}
 			onAccept={() => {
 				alert('Thanks');
-			}}
-			hideOnAccept={() => {
-				this.setState({ visible: true });
 			}}
 		>
 			Fußkundig verwendet Cookies, um Ihnen den bestmöglichen Service zu gewährleisten. Wenn Sie auf der Seite

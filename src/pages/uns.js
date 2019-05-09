@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { PageHeader, Banner } from '../utils';
-import aboutImg from '../images/bcg/familyfeet1.jpg';
+import aboutImg from '../images/bcg/on-beach.jpg';
 import Uns from '../components/Sidepage/uns/uns';
 import Cookies from '../components/cookie/Cookies';
 
