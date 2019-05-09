@@ -34,14 +34,14 @@ export default class Jobs extends Component {
 						<h3>Das klingt interessant für Sie?</h3>
 						<Grid>
 							<div className="grid1">
-								<h4>Sie sind</h4>
+								<h4>Wir erwarten:</h4>
 								<p>Engagement und Motivation </p>
 								<p>Spaß an der Arbeit in einem jungem Team</p>
 								<p>Digitale Dokumentation der therapeutischen Tätigkeit</p>
 								<p>Patientenorientiertes Arbeiten</p>
 							</div>
 							<div className="grid2">
-								<h4>und Sie bringen mit...</h4>
+								<h4>Sie bringen mit:</h4>
 								<p>Abgeschlossene Berufsausbildung zum Staatl. gepr. Podologen </p>
 								<p>Zusatzqualifikation "3 Teilige Spangentechnik" ist wünschenswert</p>
 								<p>Fortbildungsbereitschaft</p>
@@ -122,6 +122,9 @@ const JobWrapper = styled.div`
 		${styles.border({ color: `${styles.colors.mainGrey}` })};
 		width: 65%;
 		margin: 3rem auto;
+		@media (min-width: 300px) {
+			width: 90%;
+		}
 	}
 	span {
 		font-weight: bold;
@@ -134,15 +137,12 @@ const JobWrapper = styled.div`
 		text-align: left;
 	}
 	li {
-		width: 60%;
 		text-align: left;
 		line-height: 1.5rem;
 		margin: auto;
+		width: 80%;
 		@media (max-width: 900px) {
 			width: 80%;
-		}
-		@media (max-width: 300px) {
-			width: 95%;
 		}
 	}
 	.margin {

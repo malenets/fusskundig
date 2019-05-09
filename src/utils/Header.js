@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import img from '../images/bcg/hengekoyeBcg.jpg';
+import img from '../images/bcg/mountain-feet.jpg';
 
 function HomeHeader({ img, children }) {
 	return <IndexHeader img={img}>{children}</IndexHeader>;
@@ -17,9 +17,7 @@ const IndexHeader = styled.header`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	@media (max-width: 300px) {
-		width: 300px;
-	}
+	width: 100%;
 `;
 
 const DefaultHeader = styled(IndexHeader)`
