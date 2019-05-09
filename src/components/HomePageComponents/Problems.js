@@ -25,7 +25,7 @@ export default class Problems extends Component {
 								wichtig sind
 							</h3>
 							<div className="rm">
-								<Link to="/prob2/" style={{ textDecoration: 'none' }}>
+								<Link to="/warumWichtig/" style={{ textDecoration: 'none' }}>
 									<SectionButton style={{ margin: '1rem auto' }}>Mehr Infos</SectionButton>{' '}
 								</Link>
 							</div>
@@ -35,7 +35,7 @@ export default class Problems extends Component {
 								Was ist <br /> Podologie?
 							</h3>
 							<div className="rm">
-								<Link to="/prob3/" style={{ textDecoration: 'none' }}>
+								<Link to="/podologie/" style={{ textDecoration: 'none' }}>
 									<SectionButton style={{ margin: '1rem auto' }}>Mehr Infos</SectionButton>{' '}
 								</Link>
 							</div>
@@ -54,7 +54,7 @@ const GridWrapper = styled.div`
 	background: ${styles.colors.mainGrey};
 	h3 {
 		font-size: 2rem;
-		font-weight: lighter;
+		font-weight: 400;
 	}
 	text-align: center;
 `;

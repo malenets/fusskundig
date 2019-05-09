@@ -7,9 +7,9 @@ import { PageHeader, Banner } from '../utils';
 import aboutImg from '../images/morepic/BannerPic/banner.Wichtig.jpg';
 import Cookies from '../components/cookie/Cookies';
 
-const Prob2Page = () => (
+const WarumWichtig = () => (
 	<Layout>
-		<SEO title="Jobs" keywords={[ `job`, `karriere`, `ausbildung`, `podologie` ]} />
+		<SEO title="Warum Ihre Füße wichtig sind" keywords={[ `fussschäden`, `lebensqualität`, `fusspflege`, `podologie` ]} />
 		<PageHeader img={aboutImg}>
 			<Banner
 				title="Warum Ihre Füße wichtig sind"
@@ -21,4 +21,4 @@ const Prob2Page = () => (
 	</Layout>
 );
 
-export default Prob2Page;
+export default WarumWichtig;

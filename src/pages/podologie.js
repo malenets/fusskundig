@@ -7,7 +7,7 @@ import { PageHeader, Banner } from '../utils';
 import aboutImg from '../images/morepic/BannerPic/Banner.podologie.jpg';
 import Cookies from '../components/cookie/Cookies';
 
-const Prob3Page = () => (
+const Podologie = () => (
 	<Layout>
 		<SEO title="Podologie" keywords={[ `podologie`, `was ist podologie`, `medizinische fusspflege` ]} />
 		<PageHeader img={aboutImg}>
@@ -18,4 +18,4 @@ const Prob3Page = () => (
 	</Layout>
 );
 
-export default Prob3Page;
+export default Podologie;
