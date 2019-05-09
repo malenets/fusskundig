@@ -122,6 +122,9 @@ const JobWrapper = styled.div`
 		${styles.border({ color: `${styles.colors.mainGrey}` })};
 		width: 75%;
 		margin: 3rem auto;
+		@media (max-width: 480px) {
+			width: 95%;
+		}
 	}
 	span {
 		font-weight: bold;
