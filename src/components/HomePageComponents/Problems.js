@@ -54,7 +54,7 @@ const GridWrapper = styled.div`
 	background: ${styles.colors.mainGrey};
 	h3 {
 		font-size: 2rem;
-		font-weight: 400;
+		font-weight: 200;
 	}
 	text-align: center;
 `;

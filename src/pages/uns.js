@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { PageHeader, Banner } from '../utils';
-import aboutImg from '../images/bcg/on-beach.jpg';
+import aboutImg from '../images/bcg/sand-feet.jpeg';
 import Uns from '../components/Sidepage/uns/uns';
 
 const UnsPage = () => (
