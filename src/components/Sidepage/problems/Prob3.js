@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Section, Title } from '../../../utils';
+import { Section } from '../../../utils';
 import styled from 'styled-components';
 import { styles } from '../../../utils';
 
