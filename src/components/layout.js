@@ -27,9 +27,15 @@ const GlobalStyle = createGlobalStyle`
 }
 body{
 	font-family: "Open Sans", sans-serif;
-	font-weight: 700 400 200; 
+	
 	color: #262626;
 	background:#fff;
+}
+img {
+	max-width: 100%;
+}
+h3{
+	font-weight: lighter;
 }
 `;
 
