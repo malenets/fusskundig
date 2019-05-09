@@ -17,6 +17,9 @@ const IndexHeader = styled.header`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	@media (max-width: 300px) {
+		width: 100%;
+	}
 `;
 
 const DefaultHeader = styled(IndexHeader)`
