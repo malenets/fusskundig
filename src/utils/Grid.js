@@ -1,0 +1,15 @@
+import styled from 'styled-components';
+
+export const Grid = styled.div`
+	display: grid;
+	grid-template-columns: auto;
+	grid-row-gap: 1rem;
+	@media (min-width: 576px) {
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 1rem;
+	}
+	@media (min-width: 768px) {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	text-align: center;
+`;

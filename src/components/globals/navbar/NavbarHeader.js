@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
-import logo from '../../../images/logo.jpg';
+import logo from '../../../images/logo.png';
 import { FaBars } from 'react-icons/fa';
 import styled from 'styled-components';
 import { styles } from '../../../utils';
@@ -30,13 +30,16 @@ const HeaderWrapper = styled.div`
 	align-items: center;
 	justify-content: space-between;
 	.toggle-icon {
-		font-size: 1.75rem;
-		color: ${styles.colors.mainYellow};
+		font-size: 2rem;
+		color: ${styles.colors.mainGrey};
 		cursor: pointer;
 	}
-	@media (min-width: 850px) {
+	@media (min-width: 768px) {
 		.toggle-icon {
 			display: none;
 		}
+	}
+	img {
+		height: 4.58rem;
 	}
 `;

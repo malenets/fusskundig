@@ -3,9 +3,11 @@ export const colors = {
 	mainBlack: `#262626`,
 	mainYellow: `#d2aa5c`,
 	mainYellow2: `#F2AF29`,
-	mainGrey: `#505559`
+	mainGrey: `#505559`,
+	mainGrey2: `#898989`
 };
 export const textSlanted = `font-family:'Caveat', cursive;`;
+export const textNice = `font-family:'Dancing Script', cursive;`;
 
 export const transDefault = 'transition:all 0.5s ease-in-out';
 export const transFunction = (property = 'all', time = '0.5s', type = 'linear') => {
