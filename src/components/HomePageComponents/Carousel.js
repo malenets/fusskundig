@@ -11,28 +11,28 @@ const SINGLE_IMAGE = graphql`
 	{
 		img1: file(relativePath: { eq: "prod/onyfix-vertical.jpg" }) {
 			childImageSharp {
-				fluid(maxWidth: 1000) {
+				fluid(maxWidth: 1500) {
 					...GatsbyImageSharpFluid_tracedSVG
 				}
 			}
 		}
 		img2: file(relativePath: { eq: "prod/komplex-vertical.jpg" }) {
 			childImageSharp {
-				fluid(maxWidth: 1000) {
+				fluid(maxWidth: 1500) {
 					...GatsbyImageSharpFluid_tracedSVG
 				}
 			}
 		}
 		img3: file(relativePath: { eq: "prod/nagelbearbeitung2.jpg" }) {
 			childImageSharp {
-				fluid(maxWidth: 1000) {
+				fluid(maxWidth: 1500) {
 					...GatsbyImageSharpFluid_tracedSVG
 				}
 			}
 		}
 		img4: file(relativePath: { eq: "prod/hornhaut2.jpg" }) {
 			childImageSharp {
-				fluid(maxWidth: 1000) {
+				fluid(maxWidth: 1500) {
 					...GatsbyImageSharpFluid_tracedSVG
 				}
 			}
