@@ -102,6 +102,8 @@ const ProductWrapper = styled.div`
 	}
 	.title {
 		text-align: center;
+		width: 85%;
+		margin: 1rem auto;
 	}
 	.pic {
 		width: 85%;

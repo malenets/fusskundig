@@ -120,11 +120,8 @@ const JobWrapper = styled.div`
 	.vorraus {
 		padding: 1rem;
 		${styles.border({ color: `${styles.colors.mainGrey}` })};
-		width: 65%;
+		width: 75%;
 		margin: 3rem auto;
-		@media (min-width: 300px) {
-			width: 90%;
-		}
 	}
 	span {
 		font-weight: bold;

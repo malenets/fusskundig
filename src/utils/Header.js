@@ -12,12 +12,17 @@ function PageHeader({ img, children }) {
 
 const IndexHeader = styled.header`
 	min-height: calc(100vh - 55.78px);
+	max-width: 100%;
 	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
 		url(${(props) => props.img}) center/cover fixed no-repeat;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
+	@media (max-width: 480px) {
+		img {
+			width: 100%;
+		}
+	}
 `;
 
 const DefaultHeader = styled(IndexHeader)`
