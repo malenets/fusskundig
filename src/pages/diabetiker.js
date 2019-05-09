@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout';
-import SEO from '../components/SEO';
+import SEO from '../components/seo';
 import Dia from '../components/Sidepage/problems/Diabetes';
 import { PageHeader, Banner } from '../utils';
 import aboutImg from '../images/morepic/BannerPic/banner.diabetes.jpg';

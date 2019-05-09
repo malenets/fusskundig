@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/layout';
-import SEO from '../components/SEO';
+import SEO from '../components/seo';
 import Prob2 from '../components/Sidepage/problems/Prob2';
 import { PageHeader, Banner } from '../utils';
 import aboutImg from '../images/morepic/BannerPic/banner.Wichtig.jpg';
