@@ -13,7 +13,7 @@ import Call from '../components/call';
 
 const IndexPage = () => (
 	<Layout>
-		<SEO title="Fusskundig" keywords={[ `podologie`, `diabetes`, `düsseldorf`,`podologie düsseldorf`, `diabetiker`, `probleme mit den füssen`,`medizinische fusspflege düsseldorf`, `medizinische fusspflege`, `fusskundig`, `fußkundig`, `schulmeister podologie`, `p2`, `podologie bilk`, `martinus krankenhaus`  ]} />
+		<SEO title="Fußkundig | Podologie Düsseldorf" keywords={[ `podologie`, `diabetes`, `düsseldorf`,`podologie düsseldorf`, `diabetiker`, `probleme mit den füssen`,`medizinische fusspflege düsseldorf`, `medizinische fusspflege`, `fusskundig`, `fußkundig`, `schulmeister podologie`, `p2`, `podologie bilk`, `martinus krankenhaus`  ]} />
 		<HomeHeader img={img}>
 			<Banner title="FUßKUNDIG" title2="Podologie" subtitle="Für Füße, auf die Sie stolz sein können">
 				<Call />

@@ -26,6 +26,7 @@ const GlobalStyle = createGlobalStyle`
 }
 body{
 	font-family: "Open Sans", sans-serif;
+	font-weight: 700 400; 
 	color: #262626;
 	background:#fff;
 }
