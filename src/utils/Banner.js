@@ -37,7 +37,6 @@ const BannerWrapper = styled.div`
 		${styles.textNice};
 		${styles.letterSpacing({ spacing: '0.15rem' })};
 		font-size: 2rem;
-		text-transform: capitalize;
 	}
 `;
 

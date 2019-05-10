@@ -10,7 +10,7 @@ const UnsPage = () => (
 	<Layout>
 		<SEO title="Uns" keywords={[ `fußkundig`, `fusskundig`, `fusskundig gbr`, `fußkundig gbr` ]} />
 		<PageHeader img={aboutImg}>
-			<Banner title="ÜBER UNS" subtitle="unser wissen für ihre füße" />
+			<Banner title="ÜBER UNS" subtitle="Unser Wissen für Ihre Füße" />
 		</PageHeader>
 		<Uns />
 	</Layout>
