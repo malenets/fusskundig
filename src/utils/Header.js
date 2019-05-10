@@ -17,6 +17,10 @@ const IndexHeader = styled.header`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	@media (min-width: 550px) {
+		background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+			url(${(props) => props.img}) center/cover fixed no-repeat;
+	}
 `;
 
 const DefaultHeader = styled(IndexHeader)`
